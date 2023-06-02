@@ -1,10 +1,9 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/DP2.png";
+import headerImg from "../assets/img/DP3.png";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
-// import sample from '../assets/img/back3.mp4';
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -73,6 +72,7 @@ export const Banner = () => {
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
                     {`Hello! I'm Shreyas`}{" "}
+                    <br></br>
                     <span
                       className="txt-rotate"
                       dataPeriod="100"
@@ -87,7 +87,7 @@ export const Banner = () => {
                     Devloper. Currently pursuing BTech in Civil Engineering from
                     VNIT,Nagpur.Active member of gym club VNIT.Team player
                   </p>
-                  <button onClick={() => console.log("connect")}>
+                  <button onClick={() => console.log("connect")} href="">
                     Let’s Connect <ArrowRightCircle size={25} />
                   </button>
                 </div>

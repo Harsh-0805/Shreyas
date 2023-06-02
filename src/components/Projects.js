@@ -6,7 +6,9 @@ import projImg3 from "../assets/img/conso.png";
 import projImg4 from "../assets/img/data1.png";
 import projImg5 from "../assets/img/data2.png";
 import projImg6 from "../assets/img/Data3.png";
-import projImg7 from "../assets/img/rearm.png"
+import projImg7 from "../assets/img/rearm.png";
+import projImg8 from "../assets/img/prd.png";
+import projImg9 from "../assets/img/mtp.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -91,14 +93,16 @@ export const Projects = () => {
       webUrl:"https://pitch.com/public/286ac6a2-abdd-485d-a773-13f71c70479c"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Product Requirement Document for Planet AI",
+      description: "AI Enabled Voice-based Virtual Assistant:",
+      imgUrl: projImg8,
+      webUrl:"https://docs.google.com/document/d/1bS67vRr2-W83R-oZMsLmmpG3k3AAaJCmCMhzLe1EWn4/edit?usp=sharing"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Fleet Operators in 3Ws",
+      description: "Mind the Product",
+      imgUrl: projImg9,
+      webUrl:"https://drive.google.com/file/d/1UKkRyZzJBJule-igVhW59zLQgFMCuqd_/view?usp=sharing"
     },
   ];
   return (
@@ -114,13 +118,13 @@ export const Projects = () => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first"> Web D Projects</Nav.Link>
+                      <Nav.Link eventKey="first">Live Projects</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="second">Business Analytics</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Product Management</Nav.Link>
+                      <Nav.Link eventKey="third">Product Ma./Cases</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
