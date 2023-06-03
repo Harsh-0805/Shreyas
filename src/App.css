@@ -424,16 +424,16 @@ video{
   border-radius: 0 55px 55px 0;
 }
 .proj-imgbx {
-  height: 240px;
-  width: 380px;
+  height: 230px;
+  width: 360px;
   position: relative;
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
 }
 .proj-imgbx img{
-  height: 240px;
-  width: 380px;
+  height: 230px;
+  width: 360px;
   align-self: center;
 }
 .proj-imgbx::before {
