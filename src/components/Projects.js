@@ -9,6 +9,9 @@ import projImg6 from "../assets/img/Data3.png";
 import projImg7 from "../assets/img/rearm.png";
 import projImg8 from "../assets/img/prd.png";
 import projImg9 from "../assets/img/mtp.png";
+import projImg10 from "../assets/img/Atliq.jpg";
+import projImg11 from "../assets/img/Codex.jpg";
+import projImg12 from "../assets/img/Grape.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -69,16 +72,18 @@ export const Projects = () => {
       imgUrl: projImg6,
       webUrl:"https://drive.google.com/file/d/1hDqxXRhRBVOrf0vODu7rVkAIYBX8H1O2/view?usp=sharing"
     },
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   imgUrl: projImg1,
-    // },
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   imgUrl: projImg2,
-    // },
+    {
+      title: "Business Analysis for Atliq Hardwares.",
+      description: "Analyzed and interpreted 10 ad hoc business requests, providing valuable insights for the company using MySQL, PowerBI and Canva",
+      imgUrl: projImg10,
+      webUrl:"https://www.canva.com/design/DAFo5P6v5m4/uFO825PGs3MKuQM1ISR1RQ/edit?utm_content=DAFo5P6v5m4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+    },
+    {
+      title: "Marketing Data Analysis -Codex.",
+      description: "Utilized SQL for comprehensive data analysis, deriving valuable insights to drive actionable outcomes using MySQL, Power BI and Canva",
+      imgUrl: projImg11,
+      webUrl:"https://www.canva.com/design/DAFo5J8PTWU/ZwpXkgKtD6YV4B2p9GjIqg/edit?utm_content=DAFo5J8PTWU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+    },
     // {
     //   title: "Business Startup",
     //   description: "Design & Development",
@@ -103,6 +108,12 @@ export const Projects = () => {
       description: "Mind the Product",
       imgUrl: projImg9,
       webUrl:"https://drive.google.com/file/d/1UKkRyZzJBJule-igVhW59zLQgFMCuqd_/view?usp=sharing"
+    },
+    {
+      title: "Launching Job Portal Feature on Grapevine- Product Challenge",
+      description: "Design & Development",
+      imgUrl: projImg12,
+      webUrl:"https://www.canva.com/design/DAFo6u5feTY/NmjgDjqYyRb98HqrhmQwVg/edit?utm_content=DAFo6u5feTY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
     },
   ];
   return (
