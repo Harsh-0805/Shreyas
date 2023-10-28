@@ -15,9 +15,15 @@ export const Banner = () => {
     "Product Management",
     "Consultant",
     "Business Analytics",
-    "FrontEnd Web Developer"
+    "FrontEnd Web Developer",
   ];
   const period = 2000;
+
+  const style = {
+    position: "fixed",
+    bottom: "1rem",
+    right: "1rem",
+  };
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -71,11 +77,10 @@ export const Banner = () => {
                 >
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
-                    {`Hello! I'm Shreyas`}{" "}
-                    <br></br>
+                    {`Hello! I'm Shreyas`} <br></br>
                     <span
                       className="txt-rotate"
-                      dataPeriod="100"
+                      dataperiod="100"
                       data-rotate='["Front-End Web Developer","Product Manager","Business Analytics","UI/UX Designer" ]'
                     >
                       <span className="wrap">{text}</span>
@@ -87,7 +92,16 @@ export const Banner = () => {
                     Devloper. Currently pursuing BTech in Civil Engineering from
                     VNIT,Nagpur.Active member of gym club VNIT.Team player
                   </p>
-                <Container><iframe src="https://build.trypolymath.ai/embed/64d3b5d5c932ce24df4e5052" style="position: fixed; bottom: 1rem; right: 1rem" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe></Container>
+                  <Container>
+                    <iframe
+                      src="https://build.trypolymath.ai/embed/64d3b5d5c932ce24df4e5052"
+                      style={style}
+                      width="100%"
+                      height="100%"
+                      frameBorder="0"
+                      allowtransparency="true"
+                    ></iframe>
+                  </Container>
                   <button onClick={() => console.log("connect")} href="">
                     Let’s Connect <ArrowRightCircle size={25} />
                   </button>
