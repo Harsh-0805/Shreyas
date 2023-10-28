@@ -76,21 +76,9 @@ export const Banner = () => {
                   }
                 >
                   <span className="tagline">Welcome to my Portfolio</span>
-                  <h1>
-                    {`Hello! I'm Shreyas`} <br></br>
-                    <span
-                      className="txt-rotate"
-                      dataperiod="100"
-                      data-rotate='["Front-End Web Developer","Product Manager","Business Analytics","UI/UX Designer" ]'
-                    >
-                      <span className="wrap">{text}</span>
-                    </span>
-                  </h1>
-                  <p>
-                    The Head of Growth and Strategy @E-Cell VNIT, Product
-                    Management Enthusiast,Buiness Analyst,Experienced React
-                    Devloper. Currently pursuing BTech in Civil Engineering from
-                    VNIT,Nagpur.Active member of gym club VNIT.Team player
+                  <h1>{`Hello! I'm Shreyas,`} <br></br> <span className="txt-rotate" dataPeriod="100" data-rotate='["Front-End Web Developer","Product Manager","Data Analytics","UI/UX Designer","Search Engine Optimization" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>The Head of Growth and Strategy @E-Cell VNIT, Director of client services @180 DC VNIT Product Management Enthusiast,Buiness Analyst,Experienced React Devloper.
+                    Currently pursuing BTech in Civil Engineering from VNIT,Nagpur.Active member of gym club VNIT.Team player
                   </p>
                   <Container>
                     <iframe
